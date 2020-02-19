@@ -1,0 +1,62 @@
+@import "global/reset";
+
+$color-mint: #d9f5e8;
+$color-teal: #37cbc2;
+$color-gold: #fb3;
+$color-tomato: #ff6347;
+
+$brand-colors: (
+  ('primary', $color-mint, 'Mint'),
+  ('success', $color-teal, 'teal'),
+  ('warning', $color-gold, 'gold'),
+  ('danger', $color-tomato, 'tomato'),
+);
+
+
+body {
+  display: flex;
+  height:100vh;
+}
+.card {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 12px;
+  border-color: #eee;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(#000, 0.075);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  @each $a, $b, $c in $brand-colors {
+    &--#{$a} {
+      font-family: sans-serif;
+      :nth-child(1) {
+        background-color: #{$b};
+      }
+      &__desc {
+        &--name {
+          color: firebrick;
+          content: #{$c};
+        }
+      }  
+    }                
+  }
+
+  &__color {
+    height: 80px;
+    border-radius: 3px;
+  }
+ 
+  &__term {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  &__desc {
+    color: #999;
+  }
+
+}
+
