@@ -2,7 +2,7 @@
 
 Haciendo uso de mapas y bucles has de generar una página con la paleta de colores que se indica en la imagen a continuación:
 
-
+![](referencias.png)
 
 Has de mostrar las siguientes informaciones:
 
@@ -10,8 +10,6 @@ Has de mostrar las siguientes informaciones:
 * el nombre del color
 * el valor en RGB del color
 * el valor en HSL del color
-
-![](referencias.png)
 
 ## Colores:
 
