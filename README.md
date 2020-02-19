@@ -22,6 +22,7 @@ Has de mostrar las siguientes informaciones:
 
 Tienes a disposición el siguiente fragmento de código HTML para generarla _card_ cada color:
 
+```html
 <div class="card">
   <div class="card__color"></div>
   <dl class="card__details">
@@ -33,3 +34,4 @@ Tienes a disposición el siguiente fragmento de código HTML para generarla _car
     <dd class="card__desc card__desc--hsl"></dd>
   </dl>
 </div>
+```
