@@ -1,12 +1,17 @@
 # Generar una paleta de colores
 
-Haciendo uso de mapas y bucles has de generar una página con la paleta de colores que se indica en la imagen a continuación y mostrar estas informaciones:
+Haciendo uso de mapas y bucles has de generar una página con la paleta de colores que se indica en la imagen a continuación:
+
+
+
+Has de mostrar las siguientes informaciones:
 
 * el nombre del modificador de bloque
 * el nombre del color
 * el valor en RGB del color
 * el valor en HSL del color
 
+![](referencias.png)
 
 ## Colores:
 
